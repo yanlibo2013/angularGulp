@@ -10,7 +10,7 @@ var gulp = require('gulp'),
 gulp.task('connect', function() {
     connect.server({
         port: 3001, //端口号，可不写，默认8000
-        root: './dist', //当前项目主目录
+        root: './src', //当前项目主目录
         livereload: true //自动刷新
     });
 });
